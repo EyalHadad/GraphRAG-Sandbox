@@ -124,15 +124,7 @@ with st.sidebar:
     st.caption("Inject multi-hop poisoning into the graph to test LLM robustness.")
     inject_poison = st.toggle("Inject Poison (Fake Node)")
     
-    st.markdown("---")
-    st.markdown("""
-    <div class="credits">
-        <strong>Developed by:</strong> Eyal Hadad et al.<br>
-        <strong>Affiliations:</strong> Ben-Gurion University of the Negev | Achva Academic College<br>
-        <strong>Supported by:</strong> COST Action WG6<br>
-        <a href="#">View Paper</a> | <a href="#">GitHub Repo</a>
-    </div>
-    """, unsafe_allow_html=True)
+    
 
 # --- Main Window ---
 st.title("HALT: Hallucination & Poisoning Evaluation")
